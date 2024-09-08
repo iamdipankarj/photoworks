@@ -3,7 +3,6 @@ PhotoWorks.ai
 To create a fresh RoR application with tailwind and js bunlder, use the following:
 ```
 rails new photoworks --css=tailwind --database=postgresql --skip-test -j esbuild
-
 ```
 Followed by:
 ```
