@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-theme="cupcake">
+<html data-theme="light">
   <head>
     <title><%= content_for(:title) || "Photoworks" %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -20,10 +20,10 @@
   <body class="flex flex-col min-h-screen">
     <%= render 'layouts/header' %>
     <% if notice.present? %>
-      <p class="notice"><%= notice %></p>
+      <p class="notice max-w-7xl mx-auto text-center"><%= notice %></p>
     <% end %>
     <% if alert.present? %>
-      <p class="alert"><%= alert %></p>
+      <p class="alert max-w-7xl mx-auto text-center"><%= alert %></p>
     <% end %>
     <% if devise_controller? %>
       <%= render 'layouts/devise' %>
