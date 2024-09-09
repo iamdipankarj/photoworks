@@ -6,3 +6,9 @@ import { application } from "./application"
 
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
+
+// import ProgressBarController from "./progress_bar_controller"
+// application.register("progress-bar", ProgressBarController)
+
+import SvelteController from "./svelte_controller"
+application.register("svelte", SvelteController)
